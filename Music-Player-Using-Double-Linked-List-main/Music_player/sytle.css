@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+
+div {
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  border: 2px solid black;
+}
+#container {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
+}
+#box1 {
+  background-color: antiquewhite;
+}
+#box2 {
+  background-color: bisque;
+  height: 300px;
+}
+#box3 {
+  background-color: cadetblue;
+}
+#box4 {
+  background-color: burlywood;
+}
+#box5 {
+  background-color: rgb(4, 105, 52);
+}

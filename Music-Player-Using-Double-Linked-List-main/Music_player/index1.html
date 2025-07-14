@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="text">Starting text...</p>
+
+    <script>
+      let count = 0;
+      setInterval(() => {
+        document.getElementById("text").innerHTML = `Updated text ${count++}`;
+      }, 1000); // Updates the paragraph text every 1 second
+    </script>
+  </body>
+</html>
